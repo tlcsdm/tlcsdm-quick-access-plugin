@@ -56,13 +56,13 @@ jobs:
         run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
 
       - name: Upload Chrome extension
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: chrome-extension
           path: dist/tlcsdm-quick-access-chrome.zip
 
       - name: Upload Edge extension
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: edge-extension
           path: dist/tlcsdm-quick-access-edge.zip
