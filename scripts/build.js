@@ -139,6 +139,12 @@ function buildPlatform(platform) {
     path.join(platformDir, 'popup.js')
   );
   
+  // Copy images directory for link icons
+  const imagesDir = path.join(SRC_DIR, 'shared', 'images');
+  if (fs.existsSync(imagesDir)) {
+    copyDir(imagesDir, path.join(platformDir, 'images'));
+  }
+  
   // Copy icons
   const iconsDestDir = path.join(platformDir, 'icons');
   mkdir(iconsDestDir);

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24" height="24">
+  <!-- Jenkins Butler Logo -->
+  <defs>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0D6B7"/>
+      <stop offset="100%" style="stop-color:#D4A574"/>
+    </linearGradient>
+  </defs>
+  <!-- Head shape -->
+  <ellipse cx="128" cy="100" rx="70" ry="80" fill="url(#skinGrad)"/>
+  <!-- Hair -->
+  <path d="M58 80 Q60 30, 128 25 Q196 30, 198 80 Q195 50, 128 45 Q61 50, 58 80" fill="#1a1a1a"/>
+  <!-- Left eyebrow -->
+  <path d="M80 70 Q95 62, 110 70" stroke="#333" stroke-width="4" fill="none"/>
+  <!-- Right eyebrow -->
+  <path d="M146 70 Q161 62, 176 70" stroke="#333" stroke-width="4" fill="none"/>
+  <!-- Left eye -->
+  <ellipse cx="95" cy="90" rx="12" ry="14" fill="#fff"/>
+  <circle cx="95" cy="92" r="6" fill="#333"/>
+  <!-- Right eye -->
+  <ellipse cx="161" cy="90" rx="12" ry="14" fill="#fff"/>
+  <circle cx="161" cy="92" r="6" fill="#333"/>
+  <!-- Nose -->
+  <path d="M128 100 L124 125 Q128 130, 132 125 L128 100" fill="#C4946A"/>
+  <!-- Mouth/smile -->
+  <path d="M105 145 Q128 165, 151 145" stroke="#333" stroke-width="3" fill="none"/>
+  <!-- Collar -->
+  <path d="M75 175 L128 200 L181 175 L181 190 Q128 240, 75 190 Z" fill="#fff"/>
+  <!-- Bow tie -->
+  <path d="M108 195 L128 205 L148 195 L148 210 L128 200 L108 210 Z" fill="#D33833"/>
+  <circle cx="128" cy="202" r="5" fill="#D33833"/>
+  <!-- Suit -->
+  <path d="M60 175 L75 175 L75 250 L60 250 Z" fill="#1a1a1a"/>
+  <path d="M181 175 L196 175 L196 250 L181 250 Z" fill="#1a1a1a"/>
+</svg>
