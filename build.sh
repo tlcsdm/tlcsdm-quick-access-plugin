@@ -23,6 +23,8 @@ cp "$SRC_DIR/shared/popup.css" "$DIST_DIR/chrome/"
 cp "$SRC_DIR/shared/popup.js" "$DIST_DIR/chrome/"
 mkdir -p "$DIST_DIR/chrome/icons"
 cp "$ICONS_DIR"/*.png "$DIST_DIR/chrome/icons/" 2>/dev/null || echo "Note: PNG icons not found. Please generate icons from icon.svg"
+# Copy locales for i18n support
+cp -r "$SRC_DIR/shared/_locales" "$DIST_DIR/chrome/"
 
 # Build Edge extension
 echo "Building Edge extension..."
@@ -32,6 +34,8 @@ cp "$SRC_DIR/shared/popup.css" "$DIST_DIR/edge/"
 cp "$SRC_DIR/shared/popup.js" "$DIST_DIR/edge/"
 mkdir -p "$DIST_DIR/edge/icons"
 cp "$ICONS_DIR"/*.png "$DIST_DIR/edge/icons/" 2>/dev/null || echo "Note: PNG icons not found. Please generate icons from icon.svg"
+# Copy locales for i18n support
+cp -r "$SRC_DIR/shared/_locales" "$DIST_DIR/edge/"
 
 # Create ZIP packages for distribution
 echo "Creating ZIP packages..."

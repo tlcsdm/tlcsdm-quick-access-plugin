@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "TLCSDM クイックアクセス",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "tlcsdm ドメインのサイトへのクイックアクセス",
+    "description": "Extension description"
+  },
+  "title": {
+    "message": "TLCSDM クイックアクセス",
+    "description": "Popup title"
+  },
+  "linkHome": {
+    "message": "ホーム",
+    "description": "Home site link"
+  },
+  "linkDocs": {
+    "message": "ドキュメント",
+    "description": "Documentation site link"
+  },
+  "linkPdf": {
+    "message": "PDF",
+    "description": "PDF site link"
+  },
+  "linkBlog": {
+    "message": "ブログ",
+    "description": "Blog site link"
+  },
+  "linkFile": {
+    "message": "ファイル",
+    "description": "File site link"
+  },
+  "linkJenkins": {
+    "message": "Jenkins",
+    "description": "Jenkins site link"
+  },
+  "linkResume": {
+    "message": "履歴書",
+    "description": "Resume site link"
+  }
+}

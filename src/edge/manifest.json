@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "TLCSDM 快速访问",
-  "description": "快速访问 tlcsdm 域名下的各个站点",
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
   "version": "1.0.0",
+  "default_locale": "en",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
@@ -17,7 +18,7 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     },
-    "default_title": "TLCSDM 快速访问"
+    "default_title": "__MSG_extName__"
   },
   "permissions": ["tabs"]
 }
