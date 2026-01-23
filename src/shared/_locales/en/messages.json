@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "TLCSDM Quick Access",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Quick access to tlcsdm domain websites",
+    "description": "Extension description"
+  },
+  "title": {
+    "message": "TLCSDM Quick Access",
+    "description": "Popup title"
+  },
+  "linkHome": {
+    "message": "Home",
+    "description": "Home site link"
+  },
+  "linkDocs": {
+    "message": "Docs",
+    "description": "Documentation site link"
+  },
+  "linkPdf": {
+    "message": "PDF",
+    "description": "PDF site link"
+  },
+  "linkBlog": {
+    "message": "Blog",
+    "description": "Blog site link"
+  },
+  "linkFile": {
+    "message": "Files",
+    "description": "File site link"
+  },
+  "linkJenkins": {
+    "message": "Jenkins",
+    "description": "Jenkins site link"
+  },
+  "linkResume": {
+    "message": "Resume",
+    "description": "Resume site link"
+  }
+}

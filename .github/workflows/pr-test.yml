@@ -1,0 +1,57 @@
+# PR Test Workflow
+# Runs tests and builds on every pull request
+
+name: PR Test
+
+on:
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build and Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate icons
+        run: npm run generate-icons
+
+      - name: Build extension
+        run: npm run build
+
+      - name: Verify Chrome extension structure
+        run: |
+          test -f dist/chrome/manifest.json
+          test -f dist/chrome/popup.html
+          test -f dist/chrome/popup.js
+          test -f dist/chrome/popup.css
+          test -d dist/chrome/icons
+
+      - name: Verify Edge extension structure
+        run: |
+          test -f dist/edge/manifest.json
+          test -f dist/edge/popup.html
+          test -f dist/edge/popup.js
+          test -f dist/edge/popup.css
+          test -d dist/edge/icons
+
+      - name: Verify ZIP packages
+        run: |
+          test -f dist/tlcsdm-quick-access-chrome.zip
+          test -f dist/tlcsdm-quick-access-edge.zip

@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "TLCSDM 快速访问",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "快速访问 tlcsdm 域名下的各个站点",
+    "description": "Extension description"
+  },
+  "title": {
+    "message": "TLCSDM 快速访问",
+    "description": "Popup title"
+  },
+  "linkHome": {
+    "message": "主站",
+    "description": "Home site link"
+  },
+  "linkDocs": {
+    "message": "文档",
+    "description": "Documentation site link"
+  },
+  "linkPdf": {
+    "message": "PDF",
+    "description": "PDF site link"
+  },
+  "linkBlog": {
+    "message": "博客",
+    "description": "Blog site link"
+  },
+  "linkFile": {
+    "message": "文件",
+    "description": "File site link"
+  },
+  "linkJenkins": {
+    "message": "Jenkins",
+    "description": "Jenkins site link"
+  },
+  "linkResume": {
+    "message": "简历",
+    "description": "Resume site link"
+  }
+}
