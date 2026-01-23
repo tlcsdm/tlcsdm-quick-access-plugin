@@ -56,6 +56,14 @@ h1 {
   margin-right: 12px;
   width: 28px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-img {
+  width: 24px;
+  height: 24px;
 }
 
 .text {
