@@ -2,6 +2,9 @@
   "name": "tlcsdm-quick-access-plugin",
   "version": "1.0.0",
   "description": "Browser extension for quick access to tlcsdm domains (Chrome & Edge)",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "generate-icons": "node scripts/generate-icons.js",
     "build": "bash build.sh"
