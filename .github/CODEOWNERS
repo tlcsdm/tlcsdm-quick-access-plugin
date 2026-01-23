@@ -1,0 +1,15 @@
+# CODEOWNERS file
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners
+* @unknowIfGuestInDream
+
+# Extension source code
+/src/ @unknowIfGuestInDream
+
+# Build configuration
+/build.sh @unknowIfGuestInDream
+/package.json @unknowIfGuestInDream
+
+# GitHub workflows and configuration
+/.github/ @unknowIfGuestInDream
