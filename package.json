@@ -1,0 +1,20 @@
+{
+  "name": "tlcsdm-quick-access-plugin",
+  "version": "1.0.0",
+  "description": "Browser extension for quick access to tlcsdm domains (Chrome & Edge)",
+  "scripts": {
+    "generate-icons": "node scripts/generate-icons.js",
+    "build": "bash build.sh"
+  },
+  "keywords": [
+    "browser-extension",
+    "chrome-extension",
+    "edge-extension",
+    "tlcsdm"
+  ],
+  "author": "tlcsdm",
+  "license": "MIT",
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}
