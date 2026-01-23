@@ -35,6 +35,14 @@
     "message": "Jenkins",
     "description": "Jenkins site link"
   },
+  "linkGithub": {
+    "message": "GitHub",
+    "description": "GitHub profile link"
+  },
+  "linkGitee": {
+    "message": "Gitee",
+    "description": "Gitee profile link"
+  },
   "linkResume": {
     "message": "履歴書",
     "description": "Resume site link"
