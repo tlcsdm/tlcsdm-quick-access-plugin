@@ -1,6 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24" height="24">
-  <g fill="none">
-    <rect width="256" height="256" fill="#D33833" rx="60"/>
-    <path fill="#fff" d="M168.5 66.5c-5.5 0-10 4.5-10 10s4.5 10 10 10s10-4.5 10-10s-4.5-10-10-10m-81 0c-5.5 0-10 4.5-10 10s4.5 10 10 10s10-4.5 10-10s-4.5-10-10-10M128 35c-51.2 0-93 41.8-93 93c0 35.1 19.7 65.6 48.5 81.3V190c0-8.3 6.7-15 15-15h59c8.3 0 15 6.7 15 15v19.3c28.8-15.7 48.5-46.2 48.5-81.3c0-51.2-41.8-93-93-93m0 156c-13.8 0-25-11.2-25-25h50c0 13.8-11.2 25-25 25m40.5-55h-81c-5.5 0-10-4.5-10-10s4.5-10 10-10h81c5.5 0 10 4.5 10 10s-4.5 10-10 10"/>
-  </g>
+  <!-- Jenkins Butler Logo -->
+  <defs>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0D6B7"/>
+      <stop offset="100%" style="stop-color:#D4A574"/>
+    </linearGradient>
+  </defs>
+  <!-- Head shape -->
+  <ellipse cx="128" cy="100" rx="70" ry="80" fill="url(#skinGrad)"/>
+  <!-- Hair -->
+  <path d="M58 80 Q60 30, 128 25 Q196 30, 198 80 Q195 50, 128 45 Q61 50, 58 80" fill="#1a1a1a"/>
+  <!-- Left eyebrow -->
+  <path d="M80 70 Q95 62, 110 70" stroke="#333" stroke-width="4" fill="none"/>
+  <!-- Right eyebrow -->
+  <path d="M146 70 Q161 62, 176 70" stroke="#333" stroke-width="4" fill="none"/>
+  <!-- Left eye -->
+  <ellipse cx="95" cy="90" rx="12" ry="14" fill="#fff"/>
+  <circle cx="95" cy="92" r="6" fill="#333"/>
+  <!-- Right eye -->
+  <ellipse cx="161" cy="90" rx="12" ry="14" fill="#fff"/>
+  <circle cx="161" cy="92" r="6" fill="#333"/>
+  <!-- Nose -->
+  <path d="M128 100 L124 125 Q128 130, 132 125 L128 100" fill="#C4946A"/>
+  <!-- Mouth/smile -->
+  <path d="M105 145 Q128 165, 151 145" stroke="#333" stroke-width="3" fill="none"/>
+  <!-- Collar -->
+  <path d="M75 175 L128 200 L181 175 L181 190 Q128 240, 75 190 Z" fill="#fff"/>
+  <!-- Bow tie -->
+  <path d="M108 195 L128 205 L148 195 L148 210 L128 200 L108 210 Z" fill="#D33833"/>
+  <circle cx="128" cy="202" r="5" fill="#D33833"/>
+  <!-- Suit -->
+  <path d="M60 175 L75 175 L75 250 L60 250 Z" fill="#1a1a1a"/>
+  <path d="M181 175 L196 175 L196 250 L181 250 Z" fill="#1a1a1a"/>
 </svg>
