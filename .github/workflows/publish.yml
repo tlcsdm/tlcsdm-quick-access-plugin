@@ -75,7 +75,7 @@ jobs:
 
     steps:
       - name: Download Chrome extension
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: chrome-extension
 
@@ -101,7 +101,7 @@ jobs:
 
     steps:
       - name: Download Edge extension
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: edge-extension
 
