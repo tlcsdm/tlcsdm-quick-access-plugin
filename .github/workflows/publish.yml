@@ -81,7 +81,7 @@ jobs:
 
       - name: Publish to Chrome Web Store
         if: ${{ github.event.inputs.dry_run == 'false' }}
-        uses: mnao305/chrome-extension-upload@v5.0.0
+        uses: mnao305/chrome-extension-upload@v6.0.0
         with:
           file-path: tlcsdm-quick-access-chrome.zip
           extension-id: ${{ secrets.CHROME_EXTENSION_ID }}
