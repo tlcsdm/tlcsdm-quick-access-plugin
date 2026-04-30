@@ -19,10 +19,6 @@
     "message": "文档",
     "description": "Documentation site link"
   },
-  "linkPdf": {
-    "message": "PDF",
-    "description": "PDF site link"
-  },
   "linkBlog": {
     "message": "博客",
     "description": "Blog site link"

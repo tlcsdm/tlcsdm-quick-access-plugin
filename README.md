@@ -8,7 +8,6 @@
 
 - 🏠 **主站** - www.tlcsdm.com
 - 📚 **文档** - docs.tlcsdm.com
-- 📄 **PDF** - pdf.tlcsdm.com
 - ✏️ **博客** - blog.tlcsdm.com
 - 📁 **文件** - file.tlcsdm.com
 - ⚙️ **Jenkins** - jenkins.tlcsdm.com

@@ -19,10 +19,6 @@
     "message": "Docs",
     "description": "Documentation site link"
   },
-  "linkPdf": {
-    "message": "PDF",
-    "description": "PDF site link"
-  },
   "linkBlog": {
     "message": "Blog",
     "description": "Blog site link"
