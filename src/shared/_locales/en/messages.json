@@ -39,6 +39,10 @@
     "message": "Gitee",
     "description": "Gitee profile link"
   },
+  "linkNews": {
+    "message": "News",
+    "description": "News site link"
+  },
   "linkResume": {
     "message": "Resume",
     "description": "Resume site link"
