@@ -11,6 +11,7 @@
 - ✏️ **博客** - blog.tlcsdm.com
 - 📁 **文件** - file.tlcsdm.com
 - ⚙️ **Jenkins** - jenkins.tlcsdm.com
+- 📰 **新闻** - news.tlcsdm.com
 - 📋 **简历** - resume.tlcsdm.com
 
 ## 项目结构
