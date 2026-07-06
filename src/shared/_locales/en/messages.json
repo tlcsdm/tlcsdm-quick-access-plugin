@@ -19,9 +19,13 @@
     "message": "Docs",
     "description": "Documentation site link"
   },
-  "linkBlog": {
-    "message": "Blog",
-    "description": "Blog site link"
+  "linkIntro": {
+    "message": "Intro",
+    "description": "Project intro site link"
+  },
+  "linkVault": {
+    "message": "Vault",
+    "description": "Vault site link"
   },
   "linkFile": {
     "message": "Files",

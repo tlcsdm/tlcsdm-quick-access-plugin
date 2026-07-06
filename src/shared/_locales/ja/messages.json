@@ -19,9 +19,13 @@
     "message": "ドキュメント",
     "description": "Documentation site link"
   },
-  "linkBlog": {
-    "message": "ブログ",
-    "description": "Blog site link"
+  "linkIntro": {
+    "message": "プロジェクト紹介",
+    "description": "Project intro site link"
+  },
+  "linkVault": {
+    "message": "金庫",
+    "description": "Vault site link"
   },
   "linkFile": {
     "message": "ファイル",

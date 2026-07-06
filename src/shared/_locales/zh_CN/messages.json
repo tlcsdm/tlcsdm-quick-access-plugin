@@ -19,9 +19,13 @@
     "message": "文档",
     "description": "Documentation site link"
   },
-  "linkBlog": {
-    "message": "博客",
-    "description": "Blog site link"
+  "linkIntro": {
+    "message": "项目介绍",
+    "description": "Project intro site link"
+  },
+  "linkVault": {
+    "message": "保险箱",
+    "description": "Vault site link"
   },
   "linkFile": {
     "message": "文件",
